@@ -5,7 +5,7 @@
 ---
 
 ## Live Dashboard
-🔗 **[YOUR_USERNAME.github.io/ipl-crunch](https://YOUR_USERNAME.github.io/ipl-crunch)**
+🔗 **[garvitagrawal04.github.io/ipl-crunch](https://garvitagrawal04.github.io/ipl-crunch)**
 *(Spiral loads → 13-page interactive dashboard → scroll or use ↑ ↓ arrow keys)*
 
 ---
@@ -105,22 +105,8 @@ When a strategy becomes universal, it loses its edge entirely.
 ---
 
 
-## GitHub Pages Setup
-
-```bash
-# 1. Create repo and push
-git init
-git add .
-git commit -m "IPL Crunch 26 — Data Analytics Submission"
-gh repo create ipl-crunch --public --push
-
-# 2. Enable GitHub Pages
-# Go to: GitHub repo → Settings → Pages → Source: main branch → / (root) → Save
-# Your live URL: https://YOUR_USERNAME.github.io/ipl-crunch
-```
-
 ## Tech Stack
 - **Analysis:** Python · pandas · numpy · scikit-learn
 - **Visualisation:** matplotlib · seaborn
-- **Dashboard:** Next.js 14 · Tailwind CSS · Framer Motion
+- **Dashboard:** Vanilla HTML · CSS · JavaScript · Inline SVG charts
 - **Deployment:** GitHub Pages
